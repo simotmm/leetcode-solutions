@@ -4,8 +4,7 @@ void rimuoviSpaziFinali(char *s){
     if(s[strlen(s)-1]!=' ')
         return;
 
-    if(s[strlen(s)-1]==' ')
-        s[strlen(s)-1]='\0';
+    s[strlen(s)-1]='\0';
     
     rimuoviSpaziFinali(s);
 }
