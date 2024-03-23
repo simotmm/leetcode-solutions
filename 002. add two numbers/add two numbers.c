@@ -33,7 +33,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 }
 
 /*
-//approccio ricorsivo con somma, non efficente, non passa i test
+//approccio ricorsivo con somma, non efficente, non passa la maggior parte dei test
 void intToListR(struct ListNode *node, long x){
     if(x<10){
         node->val=x;
