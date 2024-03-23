@@ -12,9 +12,9 @@
 //ricorsivo in due righe
 int max(a, b){return a>b?a:b;}
 
-int maxDepth(struct TreeNode* root){return root!=NULL? 1+max(maxDepth(root->left), maxDepth(root->right)) : 0;}
+// int maxDepth(struct TreeNode* root){return root!=NULL? 1+max(maxDepth(root->left), maxDepth(root->right)) : 0;}
 
-/*
+
 //ricorsivo
 void calculateDepth(struct TreeNode* node, int current, int *depth){
     if(node==NULL) return;
@@ -28,5 +28,5 @@ int maxDepth(struct TreeNode* root) {
     calculateDepth(root, 1, &d);
     return d;
 }
-*/
+
 
