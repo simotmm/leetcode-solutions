@@ -19,11 +19,8 @@ void dfs(struct TreeNode* left, struct TreeNode* right, int *flag){
         }
         dfs(left->right, right->left, flag);
     }
-    else{
+    else
         *flag=0;
-        return;
-    }
-    
 }
 
 bool isSymmetric(struct TreeNode* root) {
